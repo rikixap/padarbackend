@@ -1,0 +1,32 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/rikixap/padarbackend.git)"
+  },
+  "keywords": [
+    "drum259ok"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "mailgun": "^0.5.0",
+    "mongoose": "^5.9.3",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.4",
+    "nodemailer-mailgun-transport": "^2.0.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
