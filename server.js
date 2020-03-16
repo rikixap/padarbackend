@@ -4,8 +4,6 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 const helmet = require('helmet')
 const road = require('./src/routes/routes')
-const sendMail = require('./mail')
-const path = require('path');
 
 
 const dbRoute = "mongodb+srv://padarofficial:padar2902@padar-npjua.mongodb.net/padar_animation?retryWrites=true&w=majority";
@@ -14,7 +12,6 @@ const dbRoute = "mongodb+srv://padarofficial:padar2902@padar-npjua.mongodb.net/p
 //EXPRESS INIT
 const app = express();
 const PORT = process.env.PORT || 5000;
-
 
 
 //MIDDLEWARE
