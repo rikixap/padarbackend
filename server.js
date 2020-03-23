@@ -21,7 +21,7 @@ app.use(cors())
 app.use(helmet())
 
 
-app.use('/v1', road)
+app.use(road)
 
 
 mongoose.set('useFindAndModify', false)
